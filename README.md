@@ -77,7 +77,7 @@ $ python prass.py tpp "$ass_file" --hidive --lead-in 0 --lead-out 200 --gap 450 
 ### Installation
 Prass should work on OS X, Linux and Windows without any problems. Prass was originally made for Python 2 but this fork has only been tested for Python 3. The only dependency is [Click](http://click.pocoo.org/3/). Assuming you have python and pip, just run:
 ```bash
-pip install git+https://github.com/IONI0/prass
+pip install git+https://github.com/The-Fast-and-the-Furious/prass
 ```
 
 ---
