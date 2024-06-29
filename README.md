@@ -161,3 +161,10 @@ fps 0
 229
 312
 ```
+
+#### Keyframes Generation in SCXvid Format
+```
+ffmpeg -i input.mkv -f yuv4mpegpipe -vf scale=640:360 -pix_fmt yuv420p - | scxvid input_keyframes.log
+```
+
+SCXvid binary can be build from source [here](https://github.com/soyokaze/SCXvid-standalone).
